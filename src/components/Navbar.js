@@ -29,8 +29,8 @@ export default function Navbar() {
       }`}
     >
       <div
-        className={`max-w-screen-xl xl:max-w-screen-2xl lg:max-w-screen-lg flex flex-wrap items-center justify-between mx-auto ${
-          isScrolled ? "p-1" : "p-4"
+        className={`max-w-screen-xl xl:max-w-screen-xl lg:max-w-screen-lg flex flex-wrap items-center justify-between mx-auto ${
+          isScrolled ? "px-12 py-2" : "px-6 py-6"
         }`}
       >
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">

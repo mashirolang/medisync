@@ -29,7 +29,7 @@ export default function About() {
       </main>
 
       <div className="w-full pt-10 pb-6 text-black flex items-center justify-center mb-6 md:mb-16">
-        <div className="container flex flex-col items-center px-4">
+        <div className="container flex flex-col items-center px-2 gap-12">
           <div className="w-full flex flex-col items-center pb-6 pt-8">
             <h2 className="text-3xl font-bold mb-2 text-center">
               What is MediSync?
@@ -42,7 +42,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="flex w-full flex-wrap justify-evenly py-10 items-center">
+          <div className="flex w-full max-sm:flex-col flex-wrap justify-evenly max-sm:justify-between items-center">
             <div className="w-full md:w-[45%] mb-4">
               <h2 className="text-4xl font-bold mb-5">Our Story</h2>
               <p>
@@ -85,9 +85,9 @@ export default function About() {
 
           <div className="flex w-full flex-wrap justify-evenly">
             <div className="w-full md:w-[45%] mb-4">
-              <div className="mb-6">
+              {/* <div className="mb-6">
                 <img src={Mission} className="w-full max-w-full" />
-              </div>
+              </div> */}
               <p className="text-xl font-bold mb-2">Our Mission</p>
               <p>
                 MediSync empowers communities to achieve optimal health and
@@ -102,9 +102,9 @@ export default function About() {
               </p>
             </div>
             <div className="w-full md:w-[45%] mb-4">
-              <div className="mb-6">
+              {/* <div className="mb-6">
                 <img src={Bg} className="w-full max-w-full" />
-              </div>
+              </div> */}
               <p className="text-xl font-bold mb-2">Our Vision</p>
               <p>
                 MediSync envisions a future where every community has access to
