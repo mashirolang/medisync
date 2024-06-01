@@ -10,20 +10,20 @@ import { useState } from "react";
 
 const faqItems = [
   {
-    header: "Question#1?",
-    content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+    header: "What services does the barangay health center provide?",
+    content: `The barangay health center provides a range of primary healthcare services including consultations, immunizations, maternal and child health services, dental care, family planning, and treatment for common illnesses. We also offer health education and promotion activities.`,
   },
   {
-    header: "Question#2?",
-    content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+    header: "What are the operating hours of the barangay health center?",
+    content: `The barangay health center is open from Monday to Friday, 7:00 AM to 5:00 PM. We are closed on weekends and public holidays.`,
   },
   {
-    header: "Question#3?",
-    content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+    header: "Do I need to make an appointment to see a doctor?",
+    content: `We are based on first come, first served. We dont take any appointements.`,
   },
   {
-    header: "Question#4?",
-    content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+    header: "Are there any fees for services at the barangay health center?",
+    content: `Most basic services are provided free of charge. However, there may be minimal fees for certain procedures or medications. Please inquire at the front desk for specific details.`,
   },
 ];
 
