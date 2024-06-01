@@ -43,7 +43,7 @@ export default function About() {
           </div>
 
           <div className="flex w-full max-sm:flex-col flex-wrap justify-evenly max-sm:justify-between items-center">
-            <div className="w-full md:w-[45%] mb-4">
+            <div className="w-full md:w-[45%] mb-4 max-md:px-5">
               <h2 className="text-4xl font-bold mb-5">Our Story</h2>
               <p>
                 We noticed that barangay health centers were struggling to
@@ -76,15 +76,15 @@ export default function About() {
                 quality healthcare.
               </p>
             </div>
-            <div className="w-full md:w-[45%] mb-4">
-              <div className="mb-6">
+            <div className="w-full md:w-[45%] mb-4 max-md:px-5">
+              <div className="md:mb-6">
                 <img src={Mission} className="w-full max-w-full" />
               </div>
             </div>
           </div>
 
           <div className="flex w-full flex-wrap justify-evenly">
-            <div className="w-full md:w-[45%] mb-4">
+            <div className="w-full md:w-[45%] mb-4 max-md:px-5">
               {/* <div className="mb-6">
                 <img src={Mission} className="w-full max-w-full" />
               </div> */}
@@ -101,7 +101,7 @@ export default function About() {
                 health information to foster informed decision-making.
               </p>
             </div>
-            <div className="w-full md:w-[45%] mb-4">
+            <div className="w-full md:w-[45%] mb-4 max-md:px-5">
               {/* <div className="mb-6">
                 <img src={Bg} className="w-full max-w-full" />
               </div> */}

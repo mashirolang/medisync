@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import About from "./screens/About";
 import Faq from "./screens/Faq";
 import Contact from "./screens/Contact";
+import "@fontsource/montserrat";
 
 function App() {
   return (

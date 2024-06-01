@@ -1,4 +1,5 @@
 import Logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,37 +13,37 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase">
+              <h2 className="mb-6 text-sm font-bold text-white uppercase">
                 Pages
               </h2>
-              <ul className="text-gray-400 font-medium">
+              <ul className="text-gray-300 font-medium">
                 <li className="mb-3">
-                  <a href="/" className="hover:underline">
+                  <Link to="/" className="hover:underline">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="/" className="hover:underline">
+                  <Link to="/about" className="hover:underline">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="/" className="hover:underline">
+                  <Link to="/faq" className="hover:underline">
                     FAQ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a href="/" className="hover:underline">
+                  <Link to="/contact" className="hover:underline">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase">
+              <h2 className="mb-6 text-sm font-bold text-white uppercase">
                 Legal
               </h2>
-              <ul className="text-gray-400 font-medium">
+              <ul className="text-gray-300 font-medium">
                 <li className="mb-3">
                   <a href="/" className="hover:underline">
                     Privacy Policy

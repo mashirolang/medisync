@@ -69,8 +69,8 @@ export default function Navbar() {
               <Link
                 to="/"
                 className={`block py-2 px-3 rounded md:p-0 ${
-                  isActive("/") ? "text-blue-700" : "text-white"
-                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700`}
+                  isActive("/") ? "text-white font-bold" : "text-white"
+                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400`}
               >
                 Home
               </Link>
@@ -79,8 +79,8 @@ export default function Navbar() {
               <Link
                 to="/about"
                 className={`block py-2 px-3 rounded md:p-0 ${
-                  isActive("/about") ? "text-blue-700" : "text-white"
-                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700`}
+                  isActive("/about") ? "text-white font-bold" : "text-white"
+                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400`}
               >
                 About MediSync
               </Link>
@@ -89,8 +89,8 @@ export default function Navbar() {
               <Link
                 to="/faq"
                 className={`block py-2 px-3 rounded md:p-0 ${
-                  isActive("/faq") ? "text-blue-700" : "text-white"
-                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700`}
+                  isActive("/faq") ? "text-white font-bold" : "text-white"
+                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400`}
               >
                 FAQ
               </Link>
@@ -99,8 +99,8 @@ export default function Navbar() {
               <Link
                 to="/contact"
                 className={`block py-2 px-3 rounded md:p-0 ${
-                  isActive("/contact") ? "text-blue-700" : "text-white"
-                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700`}
+                  isActive("/contact") ? "text-white font-bold" : "text-white"
+                } hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400`}
               >
                 Contact Us
               </Link>
